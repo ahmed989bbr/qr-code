@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background: #D6E1F0;
+    font-family: 'Fira Sans', sans-serif;
+
+.qr-card{
+    width: 320px;
+    height: 450px;
+    background-color: #fff;
+    margin: 70px auto;
+    border-radius: 7%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+.qr-img{
+    width: 280px;
+    height: 280px;
+}
+.qr-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  
+}
+.descr-qr{
+    width: 280px;
+    height: calc(420px - 280px);
+    padding: 20px 0 20px 0;
+}
+.descr-qr h2 {
+    word-spacing: 1px;
+    color: #2f2d2d;
+    padding:2px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.descr-qr p {
+    color: #666;
+    padding: 2px;
+    word-spacing: 1px;
+    margin-top: 5px;    
+    font-size: 14px;
+
+}
